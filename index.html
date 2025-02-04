@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2025 AEN Horoscope</title>
+        
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="../zodiac/zodiac.js"></script>
+
+        <script>
+            var zodihash =  {
+                monkey:'../images/suitmonkey.jpg',
+                pig:'../images/pig.jpg'
+            };
+        </script>
+
+       <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #FFF7E0;
+        }
+
+        h1 {
+            color: #E65100;
+        }
+
+        h2 {
+            color: #ea7d42;
+        }
+
+        p {
+            color: #4E342E;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+   
+    </head>
+
+
+<body>
+<div id="dateSelection">
+<h1>AEN Lunar New Year Zodiac Fortune</h1>
+<p>Look up your animal by Birth Year
+</p>
+<div class='input-group date' >                                                
+    <input type="number" id="yearPicker" min="1910" max="2025" step="1" value="1995">
+    <button id="myButton">Go!</button>
+   </div>
+</div>
+<div id="pageBody" hidden=true>
+    
+    <h1><div id="overviewTitle"></div></h1>
+
+        <img id="myImage" 
+             alt="Initial Image" width="300">
+        <div id="overviewText"></div>
+        
+
+        <h2><div id="loveTitle"></div></h2>
+        <div id="loveText"></div>
+
+        <h2><div id="careerTitle"></div></h2>
+        <div id="careerText"></div>
+
+        <h2><div id="healthTitle"></div></h2>
+        <div id="healthText"></div>
+
+        <h2><div id="wealthTitle"></div></h2>
+        <div id="wealthText"></div>
+
+</div>
+<div>
+
+</div>
+
+
+<script>
+
+const animal = ["monkey", "rooster", "dog", "pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat" ]
+
+
+function showAnimal(selection)
+{
+        
+        document.getElementById('pageBody').hidden = false;
+        //alert(animal[str % 12]);
+        //alert(zodihash.pig);
+        //alert(zodihash['pig']);
+        document.getElementById('myImage').src = lunar[selection].imgLink;
+        document.getElementById('overviewTitle').innerHTML = lunar[selection].titles.overview;
+        document.getElementById('overviewText').innerHTML = lunar[selection].body.overview;
+
+        document.getElementById('healthTitle').innerHTML = lunar[selection].titles.health;
+        document.getElementById('healthText').innerHTML = lunar[selection].body.health;
+
+        document.getElementById('wealthTitle').innerHTML = lunar[selection].titles.wealth;
+        document.getElementById('wealthText').innerHTML = lunar[selection].body.wealth;
+
+        document.getElementById('careerTitle').innerHTML = lunar[selection].titles.career;
+        document.getElementById('careerText').innerHTML = lunar[selection].body.career;
+
+        document.getElementById('loveTitle').innerHTML = lunar[selection].titles.love;
+        document.getElementById('loveText').innerHTML = lunar[selection].body.love;
+
+
+
+}
+
+function hideDate()
+{
+    document.getElementById('dateSelection').hidden = true;
+
+}
+
+$(document).ready(function() {
+
+    //check for query string param
+    var urlParms = new URLSearchParams(window.location.search);
+    if(urlParms.has('zodiac'))
+    {
+        //alert('has param');
+        var urlAnimal = urlParms.get('zodiac');
+        if(animal.includes(urlAnimal))
+        {
+            showAnimal(urlAnimal);
+            hideDate();
+        }
+
+        
+    }
+
+
+
+    $("#myButton").click(function() {
+        var str = $("#yearPicker").val();
+
+        showAnimal(animal[str%12]);
+        //$('#myImage').src = zodihash[animal[str%12]];
+        //window.location.href = '/LunarAEN/zodiac/' + animal[str%12] + '.html';
+
+    });
+
+    $('#yearPicker').datetimepicker({
+            format      :   "YYYY",
+            viewMode    :   "years", 
+        });
+});
+</script>
+</body>
