@@ -11,7 +11,7 @@ var lunar =
             love: "The Red Phoenix star, symbolizing true love in Chinese astrology, shines brightly for Dogs in 2025. For single Dogs, it’s a rare and favorable year to find love, so take the initiative in romantic pursuits.<br /><br />Those in relationships should stay cautious, as temptations from outside may create unnecessary complications. Focus on strengthening your bond to avoid misunderstandings."
 
         },
-        imgLink: '../images/dog.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/dog.png',
         titles: 
         {
             overview : '2025 Horoscope for the Dog',
@@ -32,7 +32,7 @@ var lunar =
             love: "2025 offers favorable romantic prospects for Dragons. Single Dragons will have the chance to meet potential partners, and taking the initiative when someone catches your interest will likely lead to success.<br /><br />The presence of the Tianxi star indicates this is also a lucky year for Dragons looking to develop their family, making it a great time for deepening relationships or starting new chapters in love."
 
         },
-        imgLink: '../images/dragon.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/dragon.png',
         titles: 
         {
             overview : '2025 Horoscope for the Dragon',
@@ -53,7 +53,7 @@ var lunar =
             love: "Romantic relationships are expected to remain stable, but Goats are advised to keep a low profile this year. Although the stars don’t indicate significant romantic boosts, harmony can be maintained by avoiding conflict and staying grounded in existing relationships.<br /><br />Singles may not find many romantic sparks in 2025, but it’s a good time for self-reflection and personal growth."
 
         },
-        imgLink: '../images/goat.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/goat.png',
         titles: 
         {
             overview : '2025 Horoscope for the Goat',
@@ -74,7 +74,7 @@ var lunar =
             love: "Romantic relationships will be a mix of highs and lows for Horses in 2025. The influence of the Xianchi star, known for fleeting romances, suggests that single Horses may enjoy short-lived but exciting relationships.<br /><br />Those in committed relationships should be cautious, as the strong romantic energy this year may lead to temptations. Staying loyal and avoiding complications will be crucial to preserving harmony in your relationship."
 
         },
-        imgLink: '../images/horse.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/horse.png',
         titles: 
         {
             overview : '2025 Horoscope for the Horse',
@@ -95,7 +95,7 @@ var lunar =
             love: "Relationships in 2025 may feel like a rollercoaster for Monkeys. The Taiyin star brings support from female figures, but you may also experience moments of isolation or disconnection, especially in your relationship.<br /><br />Communication is crucial—be open and share your feelings with loved ones to strengthen bonds. Single Monkeys may meet potential partners, but it’s wise to take things slow and manage expectations."
 
         },
-        imgLink: '../images/suitmonkey.jpg',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/suitmonkey.jpg',
         titles: 
         {
             overview : '2025 Horoscope for the Monkey',
@@ -116,7 +116,7 @@ var lunar =
             love: "The Huagai star dominates your romantic life this year, enhancing spiritual and creative connections but also leading to feelings of isolation or misunderstanding, especially in love.<br /><br />Single Oxen may not see much action romantically, as 2025's focus leans more towards career and personal growth rather than relationships."
 
         },
-        imgLink: '../images/ox.jpg',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/ox.jpg',
         titles: 
         {
             overview : '2025 Horoscope for the Ox',
@@ -137,7 +137,7 @@ var lunar =
             love: "This year offers a great opportunity for Pigs to turn a new chapter in their personal life. If you’re considering marriage or starting a family, this is the perfect time, and these positive milestones may ease the clash with Tai Sui.<br /><br />Single Pigs will also find opportunities to meet new partners, especially through social activities or travel. Stay active and open to new experiences to enhance your love life."
 
         },
-        imgLink: '../images/pig.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/pig.png',
         titles: 
         {
             overview : '2025 Horoscope for the Pig',
@@ -158,7 +158,7 @@ var lunar =
             love: "Although love isn’t the primary focus for Rabbits in 2025, maintaining harmony in your relationships is still important. You’ll benefit from the support of your Guiren (benefactors), making it essential to nurture connections with friends, family, and partners.<br /><br />Strengthening these bonds will help you navigate any personal challenges that arise."
 
         },
-        imgLink: '../images/rabbit.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/rabbit.png',
         titles: 
         {
             overview : '2025 Horoscope for the Rabbit',
@@ -178,7 +178,7 @@ var lunar =
             career: "With the presence of the Ziwei and Longde stars, your hard work will shine. You’re likely to gain support from influential people who can help you overcome challenges and rise to new heights in your career.<br /><br />Don’t be afraid to seek guidance when needed—your benefactors (Guiren) will be there to provide the right direction. Significant progress is expected in your professional life this year.",
             love: "Thanks to the influence of the Tianyi star, friends and loved ones will be more supportive and open to guiding you. This is a great year to strengthen bonds and form meaningful connections.<br /><br />If you encounter difficulties or challenges, don’t hesitate to seek help from your friends—they’ll be more than willing to assist in resolving doubts and turning situations around."
         },
-        imgLink: '../images/rat.jpg',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/rat.jpg',
         titles: 
         {
             overview : '2025 Horoscope for the Rat',
@@ -199,7 +199,7 @@ var lunar =
             love: "Social and personal connections will flourish in 2025 for Roosters. The presence of the Santan and Jiangxing stars indicates you’ll be surrounded by supportive individuals in both your personal and professional life.<br /><br />Single Roosters will find it easier to meet new people, while those in committed relationships will enjoy deeper bonds through mutual growth and support."
 
         },
-        imgLink: '../images/rooster.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/rooster.png',
         titles: 
         {
             overview : '2025 Horoscope for the Rooster',
@@ -220,7 +220,7 @@ var lunar =
             love: "Focusing on joyful events like marriage or starting a family will help counterbalance Tai Sui's challenging influence. Single Snakes should take advantage of the opportunity to meet new people and forge lasting relationships.<br /><br />For those already in committed relationships, open communication and future planning will strengthen your bond. Maintaining harmony in relationships will be key to offsetting the year's challenges."
 
         },
-        imgLink: '../images/snake.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/snake.png',
         titles: 
         {
             overview : '2025 Horoscope for the Snake',
@@ -241,7 +241,7 @@ var lunar =
             love: "Interpersonal relationships may be tricky in 2025 for Tigers due to the clashing influences of Xianghai and Xiangxing. Misunderstandings or minor conflicts may arise, often from unintentional mistakes.<br /><br />If you’re in a committed relationship, open communication will be key to maintaining harmony. Single Tigers might not find ideal romantic opportunities this year, but focusing on building strong friendships can offer fulfillment."
 
         },
-        imgLink: '../images/tiger.png',
+        imgLink: 'https://sirikarn.github.io/LunarAEN/images/tiger.png',
         titles: 
         {
             overview : '2025 Horoscope for the Tiger',
